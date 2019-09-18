@@ -1,0 +1,404 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color:;
+}
+/* Header Start*/
+header{
+  background-color:#D5E1DE;
+  margin:0;
+  padding:5px;
+}
+.wrapper{
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+}
+.logo{
+  width: 17%;
+  float: left;
+  margin-top: 5px;
+}
+
+.logo img{
+  width: 100%;
+}
+.menu{
+  width: 70%;
+  float: right;
+  margin-top: 5px;
+}
+.menu ul{
+  float: right;
+}
+.menu ul li{
+  list-style: none;
+  float: left;
+}
+.menu ul li a{
+  color: #717f86;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0 15px;
+  display: block;
+  
+}
+.menu ul li:last-child a{
+  padding-right:0;
+
+}
+.menu ul li a:hover{
+  color:#5FCF80;
+  transition: 0.5s;
+  
+}
+/* header end */
+
+
+  /* banner start */
+
+.banner{
+  background-image: url(../image/banner1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.trust h1{
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 5px;
+  color: black;
+  margin: 200px 420px 25px 420px;
+  text-align: center;
+  border: 5px solid green;
+  text-transform: uppercase;
+}
+
+.trust h2{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+}
+ .trust p{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    margin: 20px 200px 25px 200px;
+}
+button{
+
+  background-color: #5FCF80;
+  font-family: sans-serif; 
+  font-size: 20px; 
+  font-weight:700; 
+  text-transform: uppercase; 
+  border: none;
+  border-radius: 6px; 
+  text-align: center;
+  margin: 20px 380px 150px 465px;
+}
+
+button:hover{
+  color: red;
+}
+/* banner end */
+
+
+/*feature start*/
+
+
+.feature{
+  background-color: #D5E1DE;
+}
+ 
+.top-feature{
+  font-family: sans-serif;
+  font-size: normal;
+  text-align: center;
+}
+.top-feature h1{
+  font-family: sans-serif;
+  font-size: normal;
+  text-align: center;
+ 
+}
+.top-feature p{
+  font-family: sans-serif;
+  font-size: normal;
+  text-align: center;
+  }
+  .bottom-feature{
+  
+    
+
+  }
+/*feature1 start*/
+
+.feature1{
+  border: 1px solid red;
+  width: 30%;
+  float: left;
+  margin: 25px 10px 50px 10px;
+  min-height: 300px;
+
+
+}
+ .container{
+  overflow: hidden;
+
+ }
+.feature-logo{
+   float: left;
+   width: 30%;
+
+
+}
+.feature-logo img{
+  width: 100%;
+ 
+}
+.feature-text{
+ float: right;
+ width:65%;
+}
+.feature-text h1{
+
+}
+.feature-text p{
+
+}
+
+/*feature1 end*/
+
+
+/* faculty start */
+.faculty{
+  background-color:#F8F6F2;
+}
+.top{}
+.top h1{
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+
+}
+.top p{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: black;
+
+}
+.bottom{ 
+  margin-top: 100px;
+  margin-bottom: 100px;
+  overflow: hidden; }
+.box1{
+  float: left;
+  width: 25%;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+.box1 img{
+  margin-left: 50px
+}
+.box1{
+   background-color: white;
+}
+.box1 h1{
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  
+}
+.box1 h2{
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+  
+ }
+.box1 p{
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  color: black;
+  }
+.box2{
+  float: left;
+  width: 25%;
+  border: 1px solid black;
+   margin-left:100px;
+}
+
+.box2 img{
+  margin-left: 50px
+}
+.box2{}
+.box2 h1{
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: black; 
+  }
+.box2 h2{
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.box2 p{
+  text-align: center;
+}
+
+.box3{
+  float: left;
+  width: 25%;
+  border: 1px solid black;
+   margin-left: 100px;
+  }
+
+.box3 img{
+  margin-left: 50px
+}
+
+.box3{}
+.box3 h1{font-family: sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+.box3 h2{font-family: sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: black;}
+.box3 p{
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+
+
+/* faculty end */
+
+/*courses start*/
+
+.courses{
+
+}
+
+
+.top-course{
+  width:70%;
+  margin-left: 140px;
+
+
+}
+.top-course h1{
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+
+
+}
+.top-course p{
+  text-align: center;
+
+}
+.middle-course{
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.course1{
+  float: left;
+  width: 32%;
+  background-color:#A9DFBF;
+  text-align: center;
+  margin-right: 10px;
+  min-height: 300px;
+
+  
+}
+.course1 h1{
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top:100px;
+
+}
+.course1 p{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+   margin: 0 20px 020px;
+
+}
+.course2{
+  float: left;
+  width: 32%;
+  background-color: #A9DFBF;
+  text-align: center;
+  margin-right: 10px;
+  min-height: 300px;
+  
+}
+.course2 h1{
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top:100px;
+
+}
+.course2 p{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 20px 020px;
+
+}
+.course3{
+  float: left;
+  width: 32%;
+  background-color: #A9DFBF;
+  text-align: center;
+  margin-right: 10px;
+  min-height: 300px;
+
+}
+.course3 h1{
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top:100px;
+
+}
+.course3 p{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+   margin: 0 20px 020px;
+
+}
+/*courses end*/
